@@ -19,5 +19,6 @@
 <li>
   type() → what kind of object it is (int, list, str, etc.)
 </li>
-```fdjsmfkdfdkfdal
-  
+```bash
+git clone https://github.com/username/myproject.git
+cd myproject
