@@ -11,7 +11,7 @@
 
 </div>
 
-<h1>🪪 id and type</h1>
+<h2>1. 🪪 id and type</h2>
 <h3>Every object in Python has:</h3>
 <li>
   id() → its unique memory address (location)
