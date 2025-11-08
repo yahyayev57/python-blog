@@ -1,40 +1,29 @@
-<!-- README.md (HTML style) -->
-<h1>My Project 🚀</h1>
-<p>A tiny demo project that shows code blocks using HTML in a GitHub README.</p>
+<p align="center">
+<img src="https://github.com/yahyayev57/python-blog/blob/main/image.jpg?raw=true">
+</p>
 
-<hr/>
+<div align="center">
 
-<h2>📦 Installation</h2>
-<pre><code>git clone https://github.com/username/myproject.git
-cd myproject
-</code></pre>
 
-<hr/>
 
-<h2>▶️ Usage</h2>
+<h1>🧠 Introduction </h1>
+<p>In Python, everything is an object — numbers, strings, lists, even functions. Every object has an id, a type, and a value. Understanding how Python stores and manages objects helps you write better and more predictable code. This post explains what mutable and immutable objects are, how Python handles them differently, and why that matters when passing arguments to functions.</p>
 
-<p>Click to expand the example code:</p>
+</div>
 
-<details>
-  <summary><strong>Show example (Python)</strong></summary>
-  <pre><code class="language-python">
-def hello():
-    print("Hello, GitHub!")
+<h2>1. 🪪 id and type</h2>
+<h3>Every object in Python has:</h3>
+<li>
+  id() → its unique memory address (location)
+</li>
+<li>
+  type() → what kind of object it is (int, list, str, etc.)
+</li>
+<code>a = 10
+b = 10
+print(id(a))   # Same id as b (because of int caching)
+print(id(b))
+print(type(a)) # <class 'int'>
+</code>
+<p>Even though a and b look like two variables, they may point to the same object in memory if the values are identical and immutable.</p>
 
-if __name__ == "__main__":
-    hello()
-  </code></pre>
-</details>
-
-<hr/>
-
-<h2>📝 Notes</h2>
-<ul>
-  <li>You can change the inner language class (e.g., <code>language-bash</code>) to hint syntax highlighting.</li>
-  <li>GitHub will render this HTML inside the README.md file.</li>
-</ul>
-
-<hr/>
-
-<h2>📄 License</h2>
-<p>MIT — do whatever, just don't pretend you wrote it 😎</p>
