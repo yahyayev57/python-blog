@@ -9,6 +9,8 @@
 <h1>🧠 Introduction </h1>
 <p>In Python, everything is an object — numbers, strings, lists, even functions. Every object has an id, a type, and a value. Understanding how Python stores and manages objects helps you write better and more predictable code. This post explains what mutable and immutable objects are, how Python handles them differently, and why that matters when passing arguments to functions.</p>
 
+</div>
+
 <h1>🪪 id and type</h1>
 <h3>Every object in Python has:</h3>
 <li>
@@ -19,4 +21,3 @@
 </li>
 
   
-</div>
