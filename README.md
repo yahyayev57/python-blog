@@ -1,1 +1,3 @@
-![Python Image](https://images.unsplash.com/photo-1581090700227-1e37b190418e)
+<p align="center">
+<img src="https://github.com/yahyayev57/python-blog/blob/main/image.jpg?raw=true">
+</p>
