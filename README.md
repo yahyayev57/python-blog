@@ -19,11 +19,11 @@
 <li>
   type() → what kind of object it is (int, list, str, etc.)
 </li>
-<code>a = 10
+<pre>code>a = 10
 b = 10
 print(id(a))   # Same id as b (because of int caching)
 print(id(b))
 print(type(a)) # <class 'int'>
-</code>
+</code></pre>
 <p>Even though a and b look like two variables, they may point to the same object in memory if the values are identical and immutable.</p>
 
