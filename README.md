@@ -41,7 +41,7 @@ print(id(x))  # different id — a new string object was created
 <h2>3. ⚖️ Why it matters</h2>
 <h3>Mutable and immutable objects affect memory usage, performance, and unexpected bugs.
 Examples:</h3>
-<pre>code>a = [1, 2, 3]
+<pre><code>a = [1, 2, 3]
 b = a
 b.append(4)
 print(a)  # [1, 2, 3, 4] → both a and b changed!
